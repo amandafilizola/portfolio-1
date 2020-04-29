@@ -1,4 +1,4 @@
-# speedshow
+# Speedshow Monitoring
 
 ### Project to track internet speed using [speedtest-cli](https://www.speedtest.net/apps/cli) library
 
@@ -75,9 +75,16 @@
 		data added to file: csv_result.csv
 	###
 
-- ### monitor speed and save results in a different file (or directory) (2min refreshtime and 20 retrytime)
+- ### monitor speed and save results in a different file (or directory in Windows) (2min refreshtime and 20 retrytime)
 	    $ python speedshow.py --mode monitoring --storedata 1 --csv_result C:\Users\ewdhe\Desktop\customcsv.csv --refreshtime 2 --retrytime 20
 
     	2020-04-28 19:57:57.355382 - testing speed...
     	{'timestamp': datetime.datetime(2020, 4, 28, 19, 59, 18, 533967), 'sponsor': 'FIX FIBRA', 'locality': 'Diadema', 'ip': '186.220.84.243', 'provider': 'Claro NET', 'download': 126.2180598793741, 'upload': 9.402075395173725, 'ping': 12.703}
     	data added to file: C:\Users\ewdhe\Desktop\customcsv.csv
+
+- ### monitor speed and save results in a different file (or directory in Linux) (2min refreshtime and 20 retrytime)
+	    $ python speedshow.py --mode monitoring --storedata 1 --csv_result /home/amandafilizola/Documents/customcsv.csv --refreshtime 2 --retrytime 20
+
+    	2020-04-28 19:57:57.355382 - testing speed...
+    	{'timestamp': datetime.datetime(2020, 4, 28, 19, 59, 18, 533967), 'sponsor': 'FIX FIBRA', 'locality': 'Diadema', 'ip': '186.220.84.243', 'provider': 'Claro NET', 'download': 126.2180598793741, 'upload': 9.402075395173725, 'ping': 12.703}
+    	data added to file: /home/amandafilizola/Documents/customcsv.csv
