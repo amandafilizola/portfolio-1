@@ -1,3 +1,5 @@
+#!/bin/python3
+
 import speedtest #pip install speedtest-cli
 import csv
 import datetime
