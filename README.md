@@ -88,3 +88,8 @@
     	2020-04-28 19:57:57.355382 - testing speed...
     	{'timestamp': datetime.datetime(2020, 4, 28, 19, 59, 18, 533967), 'sponsor': 'FIX FIBRA', 'locality': 'Diadema', 'ip': '186.220.84.243', 'provider': 'Claro NET', 'download': 126.2180598793741, 'upload': 9.402075395173725, 'ping': 12.703}
     	data added to file: /home/amandafilizola/Documents/customcsv.csv
+
+			
+## Extras
+
+There is also a spreadsheet file that takes the output csv data to show graphs that grow with the quantity of data. Courtesy of [Guilherme Romano](https://www.linkedin.com/in/guilherme-romano-57aba6145/). If on Microsoft Excel, macro scripting must be enabled. On the first sheet there is a button that will have you choosing your csv file to be read. Find it on your pc, press enter and all graphs will be built and ready to look.
